@@ -1,0 +1,21 @@
+.card{
+  width: 45rem;
+  min-height: 50rem;
+  color: #6c92ba;
+  background: transparent;
+  div.flex{
+    display: flex;
+    justify-content: left;
+    p.params{
+      width: 15rem;
+      font-size: 1rem;
+      margin: 0.25rem 0;
+    }
+    p.value{
+      width: 30rem;
+      font-size: 1.5rem;
+      color: #fff;
+      margin: 0.25rem 0;
+    }
+  }
+}
